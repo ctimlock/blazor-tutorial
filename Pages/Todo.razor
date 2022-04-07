@@ -1,0 +1,57 @@
+﻿@page "/todo"
+
+<h1>Todo</h1>
+
+<ul>
+    @foreach (var todo in todos)
+    {
+        @if (!todo.IsDone)
+        {    
+            <li>
+                @if (todo.IsEditable)
+                {
+                    <input @bind="todo.Title" />
+                } else
+                {
+                    @todo.Title
+                }
+                <input type="checkbox" @bind="todo.IsDone">
+                <input type="checkbox" @bind="todo.IsEditable">
+            </li>
+        }
+    }
+</ul>
+
+<input placeholder="Something todo" @bind="newTodo" />
+<button @onclick="AddTodo" >Add todo</button>
+
+<h3>Completed</h3>
+
+<ul>
+    @foreach (var todo in todos)
+    {
+        @if (todo.IsDone)
+        {    
+            <li>
+                @todo.Title
+                <input type="checkbox" @bind="todo.IsDone">
+            </li>
+        }
+    }
+</ul>
+
+@code {
+    private List<TodoItem> todos = new();
+    private string? newTodo;
+
+    private void AddTodo()
+    {
+        if (!string.IsNullOrWhiteSpace(newTodo))
+        {
+            todos.Add(new TodoItem { Title = newTodo });
+            newTodo = string.Empty;
+        }
+    }
+
+
+}

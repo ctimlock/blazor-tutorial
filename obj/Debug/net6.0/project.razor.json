@@ -12,6 +12,39 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": 1933466519,
+        "Kind": "Components.Component",
+        "Name": "blazor_tutorial.Pages.Counter",
+        "AssemblyName": "blazor-tutorial",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazor_tutorial.Pages.Counter"
+        }
+      },
+      {
+        "HashCode": -1287966536,
+        "Kind": "Components.Component",
+        "Name": "blazor_tutorial.Pages.Counter",
+        "AssemblyName": "blazor-tutorial",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazor_tutorial.Pages.Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazor_tutorial.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -1514648517,
         "Kind": "Components.Component",
         "Name": "blazor_tutorial.Pages.FetchData",
@@ -78,35 +111,35 @@
         }
       },
       {
-        "HashCode": 1933466519,
+        "HashCode": -1357884145,
         "Kind": "Components.Component",
-        "Name": "blazor_tutorial.Pages.Counter",
+        "Name": "blazor_tutorial.Pages.Todo",
         "AssemblyName": "blazor-tutorial",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Counter"
+            "TagName": "Todo"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazor_tutorial.Pages.Counter"
+          "Common.TypeName": "blazor_tutorial.Pages.Todo"
         }
       },
       {
-        "HashCode": -1287966536,
+        "HashCode": -1992177930,
         "Kind": "Components.Component",
-        "Name": "blazor_tutorial.Pages.Counter",
+        "Name": "blazor_tutorial.Pages.Todo",
         "AssemblyName": "blazor-tutorial",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "blazor_tutorial.Pages.Counter"
+            "TagName": "blazor_tutorial.Pages.Todo"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazor_tutorial.Pages.Counter",
+          "Common.TypeName": "blazor_tutorial.Pages.Todo",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -16611,6 +16644,11 @@
   },
   "RootNamespace": "blazor_tutorial",
   "Documents": [
+    {
+      "FilePath": "c:\\Users\\Charlie\\Projects\\software-development\\blazor-tutorial\\Pages\\Todo.razor",
+      "TargetPath": "Pages\\Todo.razor",
+      "FileKind": "component"
+    },
     {
       "FilePath": "c:\\Users\\Charlie\\Projects\\software-development\\blazor-tutorial\\Pages\\FetchData.razor",
       "TargetPath": "Pages\\FetchData.razor",
